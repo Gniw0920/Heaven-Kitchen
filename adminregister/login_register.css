@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Times New Roman;
+    font-size:15px;
+    line-height:1.5;
+}
+
+body {
+  font-size: 120%;
+  background-color: #f0ece1;
+  font-family:Times New Roman;
+  font-size:15px;
+  line-height:1.5;
+}
+
+.navbar{
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0
+}
+.nav-content{
+  width:100%;
+  overflow:hidden;
+  color:#dcaa17;
+  background-color:#343534;
+  padding:8px 16px;
+  box-shadow:0 2px 5px 0 rgba(0,0,0,.16);
+  letter-spacing:4px;
+}
+.nav-content .nav-stuff{
+  padding:8px 16px;
+  float:left;
+  width:auto;
+  border:none;
+  display:block;
+  outline:0;
+}
+
+.nav-content .nav-stuff.button:hover{
+  color:#dcaa17;
+  background-color:#343534;
+  border-bottom: 1px solid #f5e1a3;
+}
+
+.nav-righty{
+  float:right;
+}
+
+.header {
+  width: 30%;
+  margin: 100px auto 0px;
+  color: #dcaa17;
+  background-color: #343534;
+  text-align: center;
+  border: 1px solid #f45d01;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  font-family:Times New Roman;
+  font-size:15px;
+  line-height:1.5;
+}
+
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #f45d01;
+  background-color: #fff8e3;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {margin: 10px 0px 10px 0px;background-color: #fff8e3;}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.input-group input {
+  background-color: #fff8e3;
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: #dcaa17;
+  background: #343534;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size:40px;
+  font-family:"Bookman Old Style";
+  font-weight:400;
+  margin:10px 0;
+}
+
+footer{
+  position: fixed;
+  bottom:0%;
+  left:0%;
+  width: 100%;
+  padding: 20px 190px;
+  padding-bottom: 40px;
+  background: #343534;
+}
+
+.footer-cred{
+  width: 80%;
+  padding: 10px 190px;
+  position: fixed;
+  left:0%;
+  bottom: 10px;
+  text-align: center;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.2);
+}
